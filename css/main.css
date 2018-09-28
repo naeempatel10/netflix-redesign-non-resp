@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    font-family: 'Lato', sans-serif;
+    vertical-align: baseline;
+    background: transparent;
+}
+html{
+        background-color: #1E202B;
+}
+
+.logo{
+    padding-top: 3em;
+    position: absolute;
+    padding-left: 3em;
+    margin-bottom: 0em;
+}
+.nav{
+    padding-top: 3em;
+    float: right;
+    text-align: right;
+}
+.nav a{
+    text-decoration: none;
+    color: white;
+    margin-left: 25px;
+    padding-right: 25px;
+    vertical-align: middle;
+}
+.nav a:hover{
+    text-decoration: none;
+    color: whitesmoke;
+    margin-left: 25px;
+    padding-right: 25px;
+    vertical-align: middle;
+}
+.landing-page{
+    background-image: url(../imgs/landing-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 100vh;
+    width: 100%;
+    overflow-y: hidden;
+    min-height: 600px;
+    position: relative;
+
+}
+.landing-content{
+    position:absolute;
+    padding-top:10em;
+    padding-left: 3em;
+}
+.landing-content h1{
+    font-size: 66px;
+    color: white;
+    padding-bottom: 0.5em;
+}
+.landing-content p{
+    font-size: 20px;
+    color: white;
+    padding-bottom: 2em;
+}
+
+.btn-trial{
+    border: #1E202B 2px solid;
+    border-radius: 100px;
+    background-color: #1E202B;
+    padding: 1em;
+    width: 250px;
+    text-align: center;
+}
+.btn-trial a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+.btn-trial:hover{
+    border: whitesmoke 2px solid;
+    border-radius: 100px;
+    background-color: whitesmoke;
+    padding: 1em;
+    width: 250px;
+    text-align: center;
+}
+.btn-trial a:hover{
+    text-decoration: none;
+    color: #1E202B;
+}
+.tv-shows-imgs{
+    background-image: url(../imgs/list.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:contain;
+    position: relative;
+    min-height: 800px;
+    margin: 0 auto;
+}
+footer{
+    background-color: white;
+    text-align: center;
+    padding: 60px 0px;   
+}
+
+
